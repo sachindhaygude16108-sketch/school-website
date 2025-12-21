@@ -112,11 +112,11 @@ button:hover {
     }
 
     .slider {
-        height: 220px;
+        height: 620px;
     }
 
     .slide {
-        height: 220px;
+        height: 620px;
     }
 
     .content {
@@ -168,6 +168,7 @@ button:hover {
     font-weight: bold;
     margin: 10px 0;
 }
+
 
 
 
