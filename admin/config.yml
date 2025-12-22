@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: sachindhaygude16108-sketch/school-website
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "announcements"
+    label: "Announcements"
+    folder: "data/announcements"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Content", name: "body", widget: "text"}
